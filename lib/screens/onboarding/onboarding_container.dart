@@ -26,6 +26,21 @@ class OnboardingContainer extends StatelessWidget {
             ),
           ),
         ),
+        Positioned.fill(
+          child: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Color.fromRGBO(0, 0, 0, 0.1),
+                  Color.fromRGBO(0, 0, 0, 1),
+                ],
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                stops: [0.35, 1],
+              ),
+            ),
+          ),
+        ),
         const Positioned(
           top: 80,
           left: 0,

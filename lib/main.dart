@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle.dark
+      value: SystemUiOverlayStyle.light
           .copyWith(statusBarColor: Colors.transparent),
       child: const MaterialApp(
         title: 'Neural Trainer',
